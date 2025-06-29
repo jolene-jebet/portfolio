@@ -38,7 +38,7 @@ const Skills = () => {
                         const Icon = skill.icon;
                         return(
                             <i key={index} className='skill-cards'>
-                                <Icon className='skill-cards'/>
+                                <Icon className='skill-icon'/>
                                 <p className='skill'>
                                     {skill.name}
                                 </p>
