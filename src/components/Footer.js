@@ -12,8 +12,12 @@ const Footer = () => {
             <div>
                 <h1>Social links</h1>
                 <div className="social-icons">
-                    <a href="https://www.educative.io/"><i><FaTwitter /></i></a>
-                    <a href="https://www.educative.io/"><i><FaInstagram /></i></a>
+                    <a href="https://www.educative.io/">
+                        <FaTwitter />
+                    </a>
+                    <a href="https://www.educative.io/">
+                        <FaInstagram />
+                    </a>
                 </div>
             </div>
         </footer>
