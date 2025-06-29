@@ -117,3 +117,47 @@ a, a:active, a:hover {
   color: lightgray;
   transform: scale(1.05);
 }
+
+/* about section */
+.about{
+  height: 72vh;
+  width: 100%;
+  padding: 4rem, 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.about-heading{
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  color: #000;
+}
+.about-info{
+  display: flex;
+  justify-content: space-evenly;
+}
+.about .about-info .abour-desc{
+  font-size: 1.7rem;
+  line-height: 2rem;
+  max-width: 50%;
+  margin-top: -0.2rem;
+  display: flex;
+  align-items: center;
+}
+.about .about-img{
+  display: block;
+}
+.about .about-img .about-img-wrapper{
+  padding: 15px;
+  margin-top: 30px;
+  height: auto;
+  max-width: 400px;
+  position: relative;
+  display: inline-block;
+  border-radius: 60%;
+  border: 1vh solid #cbd5e1;
+}
+.about .about-img .about-img-wrapper img{
+  width: 60%;
+}
