@@ -25,6 +25,14 @@ a, a:active, a:hover {
   display: flex;
   justify-content: flex-start;
 }
+.header-name {
+  color: #edf2f4;
+  border: 3px solid #edf2f4;
+  padding: 0.7rem;
+  font-size: 1rem;
+  animation: show 0.5s;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 .header-container{
   position: relative;
   display: flex;
@@ -88,7 +96,7 @@ a, a:active, a:hover {
 .body-img{
   width: 100%;
   transform: scale(.95);
-  border-radius: 50%;
+  border-radius: 40%;
 }
 .body-content{
   padding-top: 2rem;
@@ -122,7 +130,7 @@ a, a:active, a:hover {
 .about{
   height: 72vh;
   width: 100%;
-  padding: 4rem, 5rem;
+  padding: 4rem 5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -137,7 +145,7 @@ a, a:active, a:hover {
   display: flex;
   justify-content: space-evenly;
 }
-.about .about-info .abour-desc{
+.about .about-info .about-desc{
   font-size: 1.7rem;
   line-height: 2rem;
   max-width: 50%;
@@ -183,7 +191,7 @@ a, a:active, a:hover {
   height: 38vh;
   border: 0.3rem solid black;
   border-radius: 20px;
-  margin: 1rem; /*changed this to space out projects*/
+  margin: 0 1rem 0 0; /*changed this to space out projects*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -218,7 +226,8 @@ a, a:active, a:hover {
 .name {
   color: #2b2d42;
   margin: 10px 0;
-  font-size: 1.6rem;margin-bottom: -0.5rem;
+  font-size: 1.6rem;
+  margin-bottom: -0.5rem;
 }
 .description {
   color: #2b2d42;
@@ -283,6 +292,12 @@ a, a:active, a:hover {
     display: block;
     margin: 0 auto;
     width: 31%;
+  }
+  .name {
+    color: #2b2d42;
+    margin: 10px 0;
+    font-size: 1.4rem;
+    margin-bottom: -0.5rem;
   }
 
   .description {
@@ -437,7 +452,7 @@ a, a:active, a:hover {
   box-shadow: 0px 2px 10px #000000;
 }
 @media (max-width: 500px) {
-  title {
+  .title {
     font-size: 4rem;
     color: black;
     margin: 3rem 0;
@@ -486,7 +501,7 @@ a, a:active, a:hover {
   padding: 20px;
 }
 .footer .footer-contact-info .footer-heading{
-  font-size: 2,5rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -497,7 +512,7 @@ a, a:active, a:hover {
   letter-spacing: .2rem;
   margin-bottom: -0.1rem;
 }
-.footer .social-icons{
+.footer .social-icons a{
   color: white;
   font-size: 3rem;
   margin: 0.7rem;
